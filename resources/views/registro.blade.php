@@ -35,7 +35,7 @@
         <label for="password">Contraseña</label>
         <input type="password" placeholder="Ingresar contraseña" name="password" required>
 
-        <input type="submit" value="Log In">
+        <input type="submit" value="Registrarse">
         <a href="{{ route('login') }}">Iniciar sesion</a><br>
         
       </form>
