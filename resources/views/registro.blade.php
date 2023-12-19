@@ -27,13 +27,13 @@
         @csrf
 
         <label for="username">Nombre</label>
-        <input type="text" placeholder="Ingresar nombre" name="name">
+        <input type="text" placeholder="Ingresar nombre" name="name" required>
        
         <label for="username">Correo</label>
-        <input type="text" placeholder="Ingresar email" name="email">
+        <input type="text" placeholder="Ingresar email" name="email" required>
         
         <label for="password">Contraseña</label>
-        <input type="password" placeholder="Ingresar contraseña" name="password">
+        <input type="password" placeholder="Ingresar contraseña" name="password" required>
 
         <input type="submit" value="Log In">
         <a href="{{ route('login') }}">Iniciar sesion</a><br>
