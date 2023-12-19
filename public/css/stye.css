@@ -1,0 +1,85 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+
+}
+
+
+        body {
+          background: url(../Imagenes/pxfuel.jpg) no-repeat center;
+          background-size: 100% 100%;
+          min-height: 100vh;   
+        }
+
+        .header{
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.8);
+        }
+      
+        .header .eslogan{
+          color:#A52A2A; 
+          font-weight: bold;
+        }
+      
+        .header .nav-item .nav-link {
+          font-size: 15px;
+          font-weight: bold;
+        }
+      
+        .header .navbar-collapse{
+          justify-content: center
+        }
+
+        .bienvenido{
+            color: #3E2723;
+            border-radius: 20px;
+            text-align: center;
+            margin-top: 150px;
+            font-size: 80px;
+            background: linear-gradient(rgba(255, 255, 255, 0.3), #F5F5F5);
+        }
+
+        .table{
+            background: linear-gradient(rgba(255, 200, 200, 0.3), #FAFAFA);
+            font-size: 12px;
+
+        }
+
+        .table .delete{
+            color: red;
+        }
+
+        .contenido-formulario{
+            background: linear-gradient(rgba(255, 255, 255, 0.3), #F5F5F5);
+            font-size: 12px;
+        }
+
+        .header-form {
+            color: #36A0FF;
+            font-size: 27px;
+           
+        }
+        
+        .bigicon {
+            font-size: 35px;
+            color: #36A0FF;
+        }
+
+        .well-sm{
+            background: linear-gradient(rgba(255, 255, 255, 0.3), #F5F5F5);
+        }
+
+        .registrar-producto , label{
+            color: white;
+    
+        }
+
+       
+
+        .formu-registro .form-control
+        {
+            background: linear-gradient(rgba(255, 255, 255, 0.3), #F5F5F5);
+            color: #432818;
+
+        }
